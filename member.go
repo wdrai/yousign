@@ -43,18 +43,19 @@ type MemberFileObject struct {
 }
 
 type MemberRequest struct {
-	User                 *string               `json:"user,omitempty"`
-	Type                 *string               `json:"type,omitempty"`
-	Firstname            *string               `json:"firstname,omitempty"`
-	Lastname             *string               `json:"lastname,omitempty"`
-	Email                *string               `json:"email,omitempty"`
-	Phone                *string               `json:"phone,omitempty"`
-	Position             *int                  `json:"position,omitempty"`
-	FileObjects          []FileObjectRequest   `json:"fileObjects,omitempty"`
-	Procedure            *string               `json:"procedure,omitempty"`
-	OperationLevel       *string               `json:"operationLevel,omitempty"`
-	OperationCustomModes []string              `json:"operationCustomModes,omitempty"`
-	ModeSmsConfiguration *ModeSmsConfiguration `json:"modeSmsConfiguration,omitempty"`
+	User                   *string               `json:"user,omitempty"`
+	Type                   *string               `json:"type,omitempty"`
+	Firstname              *string               `json:"firstname,omitempty"`
+	Lastname               *string               `json:"lastname,omitempty"`
+	Email                  *string               `json:"email,omitempty"`
+	Phone                  *string               `json:"phone,omitempty"`
+	Position               *int                  `json:"position,omitempty"`
+	FileObjects            []FileObjectRequest   `json:"fileObjects,omitempty"`
+	Procedure              *string               `json:"procedure,omitempty"`
+	OperationLevel         *string               `json:"operationLevel,omitempty"`
+	OperationCustomModes   []string              `json:"operationCustomModes,omitempty"`
+	OperationModeSmsConfig *ModeSmsConfiguration `json:"operationModeSmsConfig,omitempty"`
+	ModeSmsConfiguration   *ModeSmsConfiguration `json:"modeSmsConfiguration,omitempty"`
 }
 
 type ModeSmsConfiguration struct {
