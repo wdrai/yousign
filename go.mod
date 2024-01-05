@@ -1,4 +1,4 @@
-module github.com/tbruyelle/yousign
+module github.com/wdrai/yousign
 
 go 1.12
 
